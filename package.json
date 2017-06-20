@@ -1,0 +1,42 @@
+{
+  "name": "kata-gossiping-bus-drivers-js",
+  "version": "1.0.0",
+  "description": "Gossiping Bus Drivers Kata in JS for the Software Craftsmanship Murcia meetup 06/2017",
+  "scripts": {
+    "start": "node index.js",
+    "example2": "node index.js Hey world!",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "tdd:mac": "./node_modules/.bin/mocha -w"
+  },
+  "author": {
+    "name": "Carlos Castillo Alarcón",
+    "url": "https://github.com/carloscasalar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:carloscasalar/kata-gossiping-bus-drivers-js.git"
+  },
+  "private": true,
+  "keywords": [
+    "Software Craftsmanship",
+    "kata",
+    "solid",
+    "ES6",
+    "ES2015",
+    "nodejs",
+    "mocha",
+    "chia",
+    "istanbul",
+    "tdd",
+    "sinon",
+    "unit test"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2",
+    "sinon": "^2.3.5",
+    "sinon-chai": "^2.8.0"
+  }
+}
